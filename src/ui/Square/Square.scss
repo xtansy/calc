@@ -1,0 +1,41 @@
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #E2E3E5;
+    border-radius: 6px;
+
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+        border: 1px solid #5D5FEF;
+    }
+
+    &:active {
+        background: #5D5FEF;
+        color: #FFFFFF;
+    }
+
+    &_small {
+        width: 52px;
+    }
+
+    &_medium {
+        width: 72px;
+    }
+
+    &_large {
+        width: 152px;
+    }
+
+    &_max {
+        width: 100%;
+    }
+
+    &_blue {
+        background-color: #5D5FEF;
+        color: #FFFFFF;
+    }
+}

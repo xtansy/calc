@@ -1,0 +1,36 @@
+.switcher {
+    display: flex;
+    justify-content: space-between;
+    width: 243px;
+    height: 38px;
+    border-radius: 6px;
+    background-color: #F3F4F6;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+
+    &__field {
+        cursor: pointer;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 6px;
+        padding: 8px;
+        color: #4D5562;
+
+        svg {
+            stroke: #4D5562;
+            margin-right: 8px;
+        }
+
+        &_active {
+            svg {
+                stroke: #5D5FEF;
+            }
+
+            background-color: #FFFFFF;
+            border: 1px solid #E2E3E5;
+            border-radius: 6px;
+        }
+    }
+}
